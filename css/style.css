@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+
+.topbar ul li {
+    display: inline;
+}
+
+nav.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0 .2);
+}
+
+header {
+    background: url(../img/bg-banner.png);
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-sobre {
+    max-width: 40%;
+    margin-left: 30px;
+}
+
+.passo-a-passo h2 {
+    text-align: center;
+}
+
+.blocos1 > div {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 10 50;
+}
+
+.servicos h2 {
+    text-align: center;
+}
+
+.blocos2 > div {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10 50;
+}
